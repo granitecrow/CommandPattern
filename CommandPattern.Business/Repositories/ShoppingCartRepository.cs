@@ -37,7 +37,7 @@ namespace CommandPattern.Business.Repositories
             }
         }
 
-        public void DecraseQuantity(string articleId)
+        public void DecreaseQuantity(string articleId)
         {
             if (LineItems.ContainsKey(articleId))
             {

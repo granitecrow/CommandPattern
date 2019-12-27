@@ -12,6 +12,6 @@ namespace CommandPattern.Business.Repositories
         void Add(Product product);
         void RemoveAll(string articleId);
         void IncreaseQuantity(string articleId);
-        void DecraseQuantity(string articleId);
+        void DecreaseQuantity(string articleId);
     }
 }
